@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+  font-family: fantasy;
+  text-align: center;
+}
+figure {
+    text-align: center;
+}
+figure img {
+  border: 1px solid black;
+}
+p {
+  background: #8FC8E1;
+  text-align: center;
+  color: #1A3408;
+  font-family: fantasy;
+  font-size: 20px
+}
