@@ -1,6 +1,17 @@
-*{
-    margin: 0;
+body{
+    background-color: lightblue;
+    margin: 1;
     padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 .tab {
@@ -36,7 +47,7 @@
 
 #FYI {background-color:red;}
 #About us {background-color:green;}
-#Become involved{background-color:blue;}
+#Become involved {background-color:blue;}
 .tab button {
   background-color: inherit;
   float: left;
