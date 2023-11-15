@@ -1,7 +1,7 @@
 body{
     background-color: lightblue;
     margin: 1;
-    padding: 0;
+    padding: 2;
 }
 
 h1 {
@@ -23,13 +23,13 @@ p {
 .tablink {
   background-color: #555;
   color: white;
-  float: left;
   border: none;
+  float: center;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 100%;
 }
 
 /* Change background color of buttons on hover */
@@ -74,9 +74,11 @@ p {
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url(https://live.staticflickr.com/65535/53303165071_325ffe1c5d.jpg)
+    background-image: .url(“https://paloalto.bibliocommons.com/events/uploads/images/full/0dd1062e616e30c321d9dc7a561c5f50/20141018-MitchellPark-Twilight.jpg”)
     background-positon: center;
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
 }
+
+  
