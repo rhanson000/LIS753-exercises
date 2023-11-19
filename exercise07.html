@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Menu</title>
-    <link rel="stylesheet" href="style.css" media="screen">
+      <meta charset="utf-8">
+      <title>Menu</title>
+      <link rel="stylesheet" href="midtermstyle.css" media="screen"</link
   </head>
   <body>
-    <h1 id="myHeader">Bookworms</h1>
-    <h2 class="genre">genre</h2>
+   <h1 id="myHeader">Friends of the Palo Alto Library</h1>
     <figure>
-      <img src="https://media2.giphy.com/media/WobVK7gnL71aUalC8Q/200.webp?cid=ecf05e47pfz0xsnoaor0wx4eyhewzd8f1l0xodsurpsouq6d&ep=v1_gifs_search&rid=200.webp&ct=g" alt="Library Image">
-    </figure>
-    <p>The only thing that you absolutely have to know is the location of the LIBRARY. - Albert Einstein</p>
-    <h2 class="genre">fiction</h2>
-    <p>The decline of literature indicates the decline of a nation. Johann Wolfgang von Goethe</p>
+<img src="https://paloalto.bibliocommons.com/events/uploads/images/full/0dd1062e616e30c321d9dc7a561c5f50/20141018-MitchellPark-Twilight.jpg" alt="Palo Alto Library" width="100" >
+<figcaption>Palo Alto Library</figcaption>
+</figure>
+    <h1 style="font-size:60px;"></h1>
+    <div class="tab">
+  <button class="tablinks" onclick= ('FYI')>FYI</button>
+  <button class="tablinks" onclick= ('About us')>About us</button>
+  <button class="tablinks" onclick= ('Become involved')>Become involved</button>
+</div>
+    <h2 class="We have over 50,000 wonderful used books, records, videos, magazines, and more!">We have over 50,000 wonderful used books, records, videos, magazines, and more!</h2>
+ <div id="FYI" class="tabcontent">
+  <h1>FYI</h1>
+  <p>This is a monthly booksale! Feel free to visit every month!</p>
+</div>
+
+<div id="About us" class="tabcontent">
+  <h1>About us</h1>
+  <p>We are able to raise money because of generous donations from individuals, estates, and companies.</p>
+</div>
+
+<div id="Become involved" class="tabcontent">
+  <h1>Become involved</h1>
+  <p>Volunteers are always needed at the Palo Alto Library</p>
+</div>
+
+<button class="tablink" onclick="openCity('FYI', this, 'red')" id="defaultOpen">FYI</button>
+<button class="tablink" onclick="openCity('About us', this, 'green')">About us</button>
+<button class="tablink" onclick="openCity('Become involved', this, 'blue')">Become involved</button>
+  
+      <figure> <img src="https://paloalto.bibliocommons.com/events/uploads/images/full/0dd1062e616e30c321d9dc7a561c5f50/20141018-MitchellPark-Twilight.jpg" >
+<p>The only thing that you absolutely have to kow is the location of the LIBRARY. -Albert Einstein</p>
+    <h2 class="genre">K6 & K7</h2>
+     <p> Bargain books are in rooms K6 and K7, where hardbound books are all $1, paperbacks are 50
+cents each, and children's books are just 25 cents. On Sunday, prices in the bargain room are
+half-off, plus you can save even more by purchasing grocery bags from us for $5 each and then
+filling these with books. Please note that the Children's and Bargain rooms open one hour
+earlier than the Main room on Saturday. 
+</p>
     <nav>
       <ul>
         <li>
           <a href="https://www.goodreads.com/list/tag/fiction">fiction</a>
-        </li>
-        <h2 class="genre">biography</h2>
-        <p>The best interviews, like the best biographies, should sing the strangeness and variety of the human race. Lynn Barber</p>
+         </li>
+        <h2 class="genre">Main Room</h2>
+          <p> Our Main Room is along the north driveway, adjacent to the Charleston Shopping Center. In this room, hardbound books start at $1 each and paperback books at 50 cents each. Please bring your large book donations to this room too.</p>
         <li>
           <a href="https://www.goodreads.com/list/show/29013.Best_Biographies_">biography</a>
-        </li>
-        <h2 class="genre">poetry</h2>
-        <p>“To be a poet is a condition, not a profession.” — Robert Graves</p>
+         </li>
+        <h2 class="genre">New Room</h2>
+         <p> Children's books, music, videos, and toys are in our new room (near the Cubberley track, Pavilion and the Greendell School), where you'll find many items for 50 cents or $1, including picture books, school age fiction and nonfiction, non-English language books, CDs and DVDs,
+              and books for parents and teachers. On Saturday, during the first hour of the sale, please select no more than 12 books at a time, and bring them to the cashiers to hold until you are ready to
+               pay for all your purchases. </p>
         <li>
-          <a href="https://www.goodreads.com/list/tag/poetry">poetry</a>
-        </li>
+          <a href="https://www.goodreads.com/list/tag/poetry"></a>
+         </li>
       </ul>
+      <p> While some booksellers may pledge a portion of your purchase to help local libraries, we give 100%. Plus, we charge no sales tax and we have the friendliest sales people you’ll ever find.</p>
     </nav>
   </body>
 </html>
