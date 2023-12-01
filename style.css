@@ -10,6 +10,9 @@ h1 {
   padding: 40px;
   text-align: center;
 }
+ body {
+    background-color: lightblue;
+  }
 .genre {
   background-color: tomato;
   color: white;
