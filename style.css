@@ -8,6 +8,14 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
+  body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-image: url('https://unsplash.com/photos/white-book-marker-on-book-page-J4kK8b9Fgj8');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333; /* Adjust text color for better visibility on the background image */
 }
 
 header {
